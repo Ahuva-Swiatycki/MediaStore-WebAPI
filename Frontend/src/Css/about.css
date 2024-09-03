@@ -1,0 +1,130 @@
+body {
+    background-image: linear-gradient(#000000,#808080,white);
+    text-align: center;
+    background-position-x: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.element20 {
+    text-size-adjust: 100%;
+    top: 120px;
+    height: 80px;
+    width: 330px;
+    background-color: #84680a;
+    color: #84680a;
+    position: relative;
+    animation-name: element20;
+    animation-duration: 4s;
+    font-size: 70px;
+    text-decoration: none;
+    line-height: 1;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+}
+@keyframes element20 {
+    from {
+        left: 150%;
+    }
+
+    to {
+       left: 70%;
+    }
+}
+
+.element21 {
+    text-size-adjust: 100%;
+    top: 120px;
+    height: 50px;
+    width: 400px;
+    background-color: #84680a;
+    position: relative;
+    color: #84680a;
+    animation-name: element21;
+    animation-duration: 4s;
+    font-size: 150%;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+}
+
+@keyframes element21 {
+    from {
+        left: 150%;
+    }
+
+    to {
+        left: 60%;
+    }
+}
+
+.row1 {
+    top: 170px;
+    justify-content: center;
+    position: relative;
+    animation-name: element23;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes element23 {
+    from {left: -50%;}
+    to {left:15%;}
+}
+
+.coloumn0 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    direction: rtl;
+    height: 250px;
+   width: 70%;
+    border: 3px solid #564305;
+    
+}
+
+.coloumn0:hover {
+    background-color: white;
+    color: white;
+    
+}
+
+.d1 {
+    font-size: 240px;
+    line-height: 1;
+    color: #564305;
+    font-weight: bold;
+}
+
+    .d11 {
+        text-align: right;
+        font-size: 23px;
+        line-height: 1.2;
+        color: black;
+        text-shadow: -1px 0 #564305, 0 1px #564305, 1px 0 #564305, 0 -1px #564305;
+    }
+      @media screen and (max-width: 728px) {
+        .body{
+           text-align: center;
+           left: 20px;
+        }
+        .coloumn0 {
+          display: grid;
+          grid-template-columns: 1fr; 
+          height: auto; 
+          width: 100%; 
+          margin-bottom: 20px;
+          right: 10px;
+          
+        }
+      
+        .d1 {
+          font-size: 120px;
+        }
+      
+        .d11 {
+          font-size: 16px; 
+          text-align: center;
+        }
+      }
+    
+  

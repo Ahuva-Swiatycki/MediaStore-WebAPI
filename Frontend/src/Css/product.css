@@ -1,0 +1,100 @@
+.product {
+  position: fixed;
+  top: 80px;
+  height: 100%;
+  background-color: #ffffff; 
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.product1 {
+  width: 45%;
+  text-align: right; 
+  margin-left: 10%;
+
+}
+
+.product2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 5%;
+}
+
+.product3 {
+  margin-right: 3%;
+  margin-top: 5%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 45%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.product2 hr {
+  width: 0.1px; 
+  height: 100%; 
+  background-color: rgb(211, 211, 211); 
+  animation: moveUpDown 9.8s linear infinite;
+}
+
+@keyframes moveUpDown {
+  from {
+    transform: translateY(-100%); 
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.quantity-button1 {
+  width: 125px;
+  border: 1px solid rgb(222, 222, 222); 
+  display: inline-block; 
+  cursor: pointer; 
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    z-index: 1000;
+  }
+  
+  .popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .popup-buttons button {
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border: 0.5px solid rgba(21, 140, 53, 0.663);
+    border-radius: 5px;
+  }
+  
+  .popup-buttons button:hover {
+    background-color: lightgray;
+  }
+  
+  
+  .alert {
+    align-items: center;
+    width: 70%;
+    text-align: right;
+    justify-content: right;
+  }
+
+  

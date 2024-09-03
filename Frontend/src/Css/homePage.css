@@ -1,0 +1,171 @@
+body {
+    background-image: linear-gradient(#000000,#808080,white);
+}
+.video {
+    animation-name: video;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    background-image: url('./home/לוג.png');
+    background-color:black;
+    background-size: cover;
+    position: relative;
+    top: 80px;
+    height: 500px;
+    border: 8px double #ffffff;
+    width: 100%;
+}
+@keyframes video {
+    0% {
+        background-image: url('./home/לוג.png');
+    }
+    10% {
+        background-image: url('./home/1.png');
+    }
+
+    20% {
+        background-image: url('./home/תמונה1.png');
+    }
+
+    30% {
+        background-image: url('./home/תמונה2.png');
+    }
+
+    40% {
+        background-image: url('./home/תמונה3.png');
+    }
+
+    50% {
+        background-image: url('./home/תמונה4.png');
+    }
+
+    60% {
+        background-image: url('./home/תמונה5.png');
+    }
+
+    70% {
+        background-image: url('./home/תמונה6.png');
+    }
+
+    80% {
+        background-image: url('./home/תמונה7.png');
+    }
+
+    90% {
+        background-image: url('./home/תמונה8.png');
+    }   
+
+    100% {
+        background-image: url('./home/לוג.png');
+    }
+}
+
+.div2 {
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    direction: rtl;
+    width: 70%;
+    display: block;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+
+
+
+.test1 {
+    text-align: right;
+    font-size: 110%;
+    color: #000000;
+    margin: 5%;
+    font-weight: bold;    
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #c4499a;
+}
+
+.element6 {
+    z-index: 5;
+    text-size-adjust: 100%;
+    width: 20%;
+    background-color: #9162a7;
+    color: #9162a7;
+    position: relative;
+    animation-name: element;
+    animation-duration: 4s;
+    font-size: x-large;
+    text-decoration: none;
+    line-height: 2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+    direction: rtl;
+}
+
+@keyframes element {
+    from {
+        left: 150%;
+    }
+
+    to {
+       left: 70%;
+    }
+}
+
+.element7 {
+    z-index: 3;
+    text-size-adjust: 100%;
+    height: 100%;
+    width: 20%;
+    background-color: #9162a7;
+    position: relative;
+    color: #9162a7;
+    animation-name: element2;
+    animation-duration: 4s;
+    font-size: medium;
+    text-decoration: none;
+    line-height: 2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+}
+@keyframes element2 {
+    from {
+        left: 150%;
+    }
+
+    to {
+        left: 60%;
+    }
+}
+@media screen and (max-width: 728px) {
+   .video{
+    width: 98%;
+    height: 200px;
+   }
+   .element6{
+width: 50%;
+text-align: center;
+   }
+   @keyframes element {
+    from {
+        left: 100%;
+    }
+
+    to {
+       left: 40%;
+    }}
+   .element7{
+    width: 70%;
+text-align: center;
+   }
+   @keyframes element2 {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 10%;
+    }
+}
+}

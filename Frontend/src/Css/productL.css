@@ -1,0 +1,36 @@
+
+  .products-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    direction: rtl;
+    margin-left: 1.2%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .product-link {
+    font-size: 120%;
+    flex: 0 0 calc(30% - 20px); 
+    margin: 1%; 
+    text-decoration: none; 
+    
+  }
+  
+  .product-card {
+    width: 100%;
+    border-radius: 10px; 
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #e7dee5;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  
+  .product-card p {
+    text-align: center;
+}  

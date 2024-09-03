@@ -1,0 +1,122 @@
+body {
+    background-image: linear-gradient(#000000,#808080,white);
+    text-align: center;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+.element11{
+    
+    text-size-adjust: 100%;
+    text-align: center;
+    top: 120px;
+    height: 50px;
+    width: 330px;
+    background-color: #dc57bd;
+    color: #dc57bd;
+    position: relative;
+    animation-name: element11;
+    animation-duration: 4s;
+    font-size: 40px;
+    text-decoration: none;
+    line-height: 1;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+    z-index: 101;
+}
+@keyframes element11 {
+    from {left:1500px;}
+    to {left: 1000px;}
+
+}
+
+.element12 {
+    text-size-adjust: 100%;
+    top: 120px;
+    height: 50px;
+    width: 400px;
+    background-color: #dc57bd;
+    position: relative;
+    color: #dc57bd;
+    animation-name: element12;
+    animation-duration: 4s;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+    z-index: 101;
+}
+
+@keyframes element12 {
+    from {left: 1500px;}
+    to {left: 850px;}
+    
+}
+
+.roow {
+    width:900px;
+    top: 250px;
+    justify-content: center;
+    position: relative;
+    animation-name: element13;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    z-index: 100;
+}
+@keyframes element13 {
+    from {left: -700px;}
+    to {left:240px;}
+}
+.details  {
+    position: absolute;
+    text-align: center;
+    direction: rtl;
+    height: 40%;
+    width:40%;
+    border: 3px solid #dc57bd;
+    background: rgba(255, 255, 255, 0.9);
+    background-color: white;
+    z-index: 100;
+    font-size: 150%;
+    line-height: 2;
+    color: #dc57bd;
+    font-weight: bold;
+    text-align: center;
+    animation: moveDetails 2s infinite alternate;
+}
+@keyframes moveDetails {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
+.map-container{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+        .iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            
+        }      
+        @media screen and (max-width: 728px) {
+            .roow {
+                width: 300px;;
+                top: 250px;
+                justify-content: center;
+                position: relative;
+                animation-name: element13;
+                animation-duration: 3s;
+                animation-fill-mode: forwards;
+            }
+            @keyframes element13 {
+                from {left: -700px;}
+                to {left:250px;}
+            }
+ }
